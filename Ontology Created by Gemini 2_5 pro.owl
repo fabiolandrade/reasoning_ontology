@@ -1,0 +1,2531 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85">
+    <Prefix name="" IRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Anfiteatro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apiário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arquivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banca_de_jornal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banheiro_Público"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capela_mortuária"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_comercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_cultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_convenções"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_documentação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_exposições"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comércio_de_carnes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concha_acústica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conservatório"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Convento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coreto_ou_tribuna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EDGV_Edificação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Agropec_Ext_Vegetal_Pesca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Comerc_Serv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Constr_Est_Med_Fen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Constr_Lazer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Ensino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Ext_Mineral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Habitacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Religiosa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Residencial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Saude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipamentos_culturais_diversos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espaço_de_eventos_e_ou_cultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espaço_de_exibição_de_filmes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estádio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmácia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Galeria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ginásio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hab_Indigena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Igreja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja_de_conveniência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja_de_materiais_de_construção_e_ou_ferragem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja_de_móveis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja_de_roupas_e_ou_tecidos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercado_público"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesquita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mosteiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OSM_Tags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficina_mecânica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outros_comércios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outros_serviços"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plataforma_de_pesca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pocilga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posto_Combustivel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pousada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quitanda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Residencial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secundário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sede_operacional_de_fazenda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serviço"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sinagoga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supermercado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teatro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Templo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terciário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terreiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Venda_de_veículos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viveiro_de_plantas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viveiro_para_aquicultura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coletiva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cristã"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ensino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#finalidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#isolada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nivelAtencao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#religião"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tipoEdifAgropec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tipoEdifComercServ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tipoEdifLazer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tipoEdifRelig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_archive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_bank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_bandstand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_circus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_clinic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_community_centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_conference_centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_exhibition_centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_fuel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_funeral_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_marketplace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_monastery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_music_school"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_pharmacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_place_of_worship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amenity_toilets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_commercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_cowshed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_industrial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_religious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_residential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_school"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#building_sty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leisure_fishing_pier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leisure_sports_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leisure_stadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#man_made_beehive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#man_made_monitoring_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_butcher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_car_repair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_convenience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_doityourself"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_furniture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_garden_centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_greengrocer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_mall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_newsagent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shop_supermarket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourism_aviary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourism_gallery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourism_guest_house"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourism_hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourism_motel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourism_museum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#está_operacional"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_altura_aprox"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_geom_aprox"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_nome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_cultural"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_turística"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Capela_Cemitério_Campo_Santo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Centro_Cultural_Islâmico_da_Bahia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Centro_Espírita_Allan_Kardec"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chanukiá_Bet_Chabad_Salvador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colégio_Antônio_Vieira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Condomínio_Quinta_da_Graça"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Convento_da_Lapa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drogasil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estádio_Manoel_Barradas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hospital_Geral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hospital_Mulher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hospital_Ortopédico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Igreja_Universal_do_Reino_de_Deus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Igreja_Vitória"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Igreja_de_Jesus_Cristo_dos_Santos_dos_Últimos_Dias"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Igreja_do_Bonfim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_Empa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Laboratório_Leme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mercado_Modelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mosteiro_de_São_Bento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Museu_de_Arte_Moderna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Posto_Marina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reserva_Indígena_Pataxó_da_Jaqueira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teatro_Castro_Alves"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Terreiro_Iyá_Omin_Axé_Iyá_Massê"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UPA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Universidade_Federal_da_Bahia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Anfiteatro"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apiário"/>
+        <Class IRI="#tipoEdifAgropec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arquivo"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviário"/>
+        <Class IRI="#tipoEdifAgropec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banca_de_jornal"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banco"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banheiro_Público"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biblioteca"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capela_mortuária"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_comercial"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_cultural"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_convenções"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_documentação"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_exposições"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circo"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comercial"/>
+        <Class IRI="#finalidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comércio_de_carnes"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concha_acústica"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conservatório"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convento"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coreto_ou_tribuna"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curral"/>
+        <Class IRI="#tipoEdifAgropec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EDGV_Edificação"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#está_operacional"/>
+            <Class IRI="#EDGV_Edificação"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EDGV_Edificação"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#tem_altura_aprox"/>
+            <Class IRI="#EDGV_Edificação"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EDGV_Edificação"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#tem_geom_aprox"/>
+            <Class IRI="#EDGV_Edificação"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EDGV_Edificação"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#é_cultural"/>
+            <Class IRI="#EDGV_Edificação"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EDGV_Edificação"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#é_turística"/>
+            <Class IRI="#EDGV_Edificação"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EDGV_Edificação"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tem_nome"/>
+            <Class IRI="#EDGV_Edificação"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Agropec_Ext_Vegetal_Pesca"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Constr_Est_Med_Fen"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Ensino"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Ext_Mineral"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Habitacional"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Religiosa"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Residencial"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Saude"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipamentos_culturais_diversos"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espaço_de_eventos_e_ou_cultural"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espaço_de_exibição_de_filmes"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estádio"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmácia"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Galeria"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ginásio"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hab_Indigena"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Igreja"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja_de_conveniência"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja_de_materiais_de_construção_e_ou_ferragem"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja_de_móveis"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja_de_roupas_e_ou_tecidos"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercado_público"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesquita"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mosteiro"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motel"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museu"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficina_mecânica"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outros_comércios"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outros_serviços"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plataforma_de_pesca"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pocilga"/>
+        <Class IRI="#tipoEdifAgropec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posto_Combustivel"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pousada"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primário"/>
+        <Class IRI="#nivelAtencao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quitanda"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Residencial"/>
+        <Class IRI="#finalidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secundário"/>
+        <Class IRI="#nivelAtencao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sede_operacional_de_fazenda"/>
+        <Class IRI="#tipoEdifAgropec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serviço"/>
+        <Class IRI="#finalidade"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sinagoga"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teatro"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Templo"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terciário"/>
+        <Class IRI="#nivelAtencao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terreiro"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Venda_de_veículos"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viveiro_de_plantas"/>
+        <Class IRI="#tipoEdifAgropec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viveiro_para_aquicultura"/>
+        <Class IRI="#tipoEdifAgropec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coletiva"/>
+        <Class IRI="#Hab_Indigena"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cristã"/>
+        <Class IRI="#Edif_Religiosa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ensino"/>
+        <Class IRI="#Edif_Religiosa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#finalidade"/>
+        <Class IRI="#Edif_Comerc_Serv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#isolada"/>
+        <Class IRI="#Hab_Indigena"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nivelAtencao"/>
+        <Class IRI="#Edif_Saude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#religião"/>
+        <Class IRI="#Edif_Religiosa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tipoEdifAgropec"/>
+        <Class IRI="#Edif_Agropec_Ext_Vegetal_Pesca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tipoEdifComercServ"/>
+        <Class IRI="#Edif_Comerc_Serv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tipoEdifLazer"/>
+        <Class IRI="#Edif_Constr_Lazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tipoEdifRelig"/>
+        <Class IRI="#Edif_Religiosa"/>
+    </SubClassOf>
+
+    <SubClassOf>
+        <Class IRI="#amenity_archive"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_bank"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_bandstand"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_circus"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_clinic"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_community_centre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_conference_centre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_exhibition_centre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_fuel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_funeral_hall"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_hospital"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_library"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_marketplace"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_monastery"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_music_school"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_pharmacy"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_place_of_worship"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_restaurant"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_theatre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amenity_toilets"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_commercial"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_cowshed"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_farm"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_industrial"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_public"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_religious"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_residential"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_school"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#building_sty"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leisure_fishing_pier"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leisure_sports_hall"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leisure_stadium"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#man_made_beehive"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#man_made_monitoring_station"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_butcher"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_car"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_car_repair"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_clothes"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_convenience"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_doityourself"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_furniture"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_garden_centre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_greengrocer"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_mall"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_newsagent"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shop_supermarket"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourism_aviary"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourism_gallery"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourism_guest_house"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourism_hotel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourism_motel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourism_museum"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+
+    <SubClassOf>
+        <Class IRI="#Anfiteatro"/>
+        <Class IRI="#amenity_theatre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_cultural"/>
+        <Class IRI="#amenity_community_centre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conservatório"/>
+        <Class IRI="#amenity_music_school"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Convento"/>
+        <Class IRI="#amenity_monastery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Agropec_Ext_Vegetal_Pesca"/>
+        <Class IRI="#building_farm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <Class IRI="#building_public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Ext_Mineral"/>
+        <Class IRI="#building_industrial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Igreja"/>
+        <Class IRI="#amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesquita"/>
+        <Class IRI="#amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secundário"/>
+        <Class IRI="#amenity_hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sinagoga"/>
+        <Class IRI="#amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Templo"/>
+        <Class IRI="#amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terreiro"/>
+        <Class IRI="#amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terciário"/>
+        <Class IRI="#amenity_hospital"/>
+    </SubClassOf>
+    
+    <EquivalentClasses>
+        <Class IRI="#Apiário"/>
+        <Class IRI="#man_made_beehive"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Arquivo"/>
+        <Class IRI="#Centro_de_documentação"/>
+        <Class IRI="#amenity_archive"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Aviário"/>
+        <Class IRI="#tourism_aviary"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Banca_de_jornal"/>
+        <Class IRI="#shop_newsagent"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Banco"/>
+        <Class IRI="#amenity_bank"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Banheiro_Público"/>
+        <Class IRI="#amenity_toilets"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Biblioteca"/>
+        <Class IRI="#amenity_library"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Capela_mortuária"/>
+        <Class IRI="#amenity_funeral_hall"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Centro_comercial"/>
+        <Class IRI="#shop_mall"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Centro_de_convenções"/>
+        <Class IRI="#amenity_conference_centre"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Centro_de_exposições"/>
+        <Class IRI="#amenity_exhibition_centre"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Circo"/>
+        <Class IRI="#amenity_circus"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Comércio_de_carnes"/>
+        <Class IRI="#shop_butcher"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Concha_acústica"/>
+        <Class IRI="#Coreto_ou_tribuna"/>
+        <Class IRI="#amenity_bandstand"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Curral"/>
+        <Class IRI="#building_cowshed"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <Class IRI="#building_commercial"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Constr_Est_Med_Fen"/>
+        <Class IRI="#man_made_monitoring_station"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Ensino"/>
+        <Class IRI="#building_school"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Habitacional"/>
+        <Class IRI="#Edif_Residencial"/>
+        <Class IRI="#building_residential"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Religiosa"/>
+        <Class IRI="#building_religious"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Estádio"/>
+        <Class IRI="#leisure_stadium"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Farmácia"/>
+        <Class IRI="#amenity_pharmacy"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Galeria"/>
+        <Class IRI="#tourism_gallery"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ginásio"/>
+        <Class IRI="#leisure_sports_hall"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#tourism_hotel"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Loja_de_conveniência"/>
+        <Class IRI="#shop_convenience"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Loja_de_materiais_de_construção_e_ou_ferragem"/>
+        <Class IRI="#shop_doityourself"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Loja_de_móveis"/>
+        <Class IRI="#shop_furniture"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Loja_de_roupas_e_ou_tecidos"/>
+        <Class IRI="#shop_clothes"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mercado_público"/>
+        <Class IRI="#amenity_marketplace"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mosteiro"/>
+        <Class IRI="#amenity_monastery"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Motel"/>
+        <Class IRI="#tourism_motel"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Museu"/>
+        <Class IRI="#tourism_museum"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oficina_mecânica"/>
+        <Class IRI="#shop_car_repair"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Plataforma_de_pesca"/>
+        <Class IRI="#leisure_fishing_pier"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pocilga"/>
+        <Class IRI="#building_sty"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Posto_Combustivel"/>
+        <Class IRI="#amenity_fuel"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pousada"/>
+        <Class IRI="#tourism_guest_house"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Primário"/>
+        <Class IRI="#amenity_clinic"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Quitanda"/>
+        <Class IRI="#shop_greengrocer"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#amenity_restaurant"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#shop_supermarket"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Teatro"/>
+        <Class IRI="#amenity_theatre"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Venda_de_veículos"/>
+        <Class IRI="#shop_car"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Viveiro_de_plantas"/>
+        <Class IRI="#shop_garden_centre"/>
+    </EquivalentClasses>
+
+    <DisjointClasses>
+        <Class IRI="#Anfiteatro"/>
+        <Class IRI="#Arquivo"/>
+        <Class IRI="#Biblioteca"/>
+        <Class IRI="#Centro_cultural"/>
+        <Class IRI="#Centro_de_documentação"/>
+        <Class IRI="#Circo"/>
+        <Class IRI="#Concha_acústica"/>
+        <Class IRI="#Conservatório"/>
+        <Class IRI="#Coreto_ou_tribuna"/>
+        <Class IRI="#Equipamentos_culturais_diversos"/>
+        <Class IRI="#Espaço_de_eventos_e_ou_cultural"/>
+        <Class IRI="#Espaço_de_exibição_de_filmes"/>
+        <Class IRI="#Estádio"/>
+        <Class IRI="#Galeria"/>
+        <Class IRI="#Ginásio"/>
+        <Class IRI="#Museu"/>
+        <Class IRI="#Plataforma_de_pesca"/>
+        <Class IRI="#Teatro"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Apiário"/>
+        <Class IRI="#Aviário"/>
+        <Class IRI="#Curral"/>
+        <Class IRI="#Pocilga"/>
+        <Class IRI="#Sede_operacional_de_fazenda"/>
+        <Class IRI="#Viveiro_de_plantas"/>
+        <Class IRI="#Viveiro_para_aquicultura"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Banca_de_jornal"/>
+        <Class IRI="#Banco"/>
+        <Class IRI="#Centro_comercial"/>
+        <Class IRI="#Centro_de_convenções"/>
+        <Class IRI="#Centro_de_exposições"/>
+        <Class IRI="#Comércio_de_carnes"/>
+        <Class IRI="#Farmácia"/>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Loja_de_conveniência"/>
+        <Class IRI="#Loja_de_materiais_de_construção_e_ou_ferragem"/>
+        <Class IRI="#Loja_de_móveis"/>
+        <Class IRI="#Loja_de_roupas_e_ou_tecidos"/>
+        <Class IRI="#Mercado_público"/>
+        <Class IRI="#Motel"/>
+        <Class IRI="#Oficina_mecânica"/>
+        <Class IRI="#Outros_comércios"/>
+        <Class IRI="#Outros_serviços"/>
+        <Class IRI="#Pousada"/>
+        <Class IRI="#Quitanda"/>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#Venda_de_veículos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Capela_mortuária"/>
+        <Class IRI="#Centro"/>
+        <Class IRI="#Convento"/>
+        <Class IRI="#Igreja"/>
+        <Class IRI="#Mesquita"/>
+        <Class IRI="#Mosteiro"/>
+        <Class IRI="#Sinagoga"/>
+        <Class IRI="#Templo"/>
+        <Class IRI="#Terreiro"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Comercial"/>
+        <Class IRI="#Residencial"/>
+        <Class IRI="#Serviço"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Primário"/>
+        <Class IRI="#Secundário"/>
+        <Class IRI="#Terciário"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#coletiva"/>
+        <Class IRI="#isolada"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restaurante"/>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capela_mortuária"/>
+        <NamedIndividual IRI="#Capela_Cemitério_Campo_Santo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Capela_Cemitério_Campo_Santo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Centro_Cultural_Islâmico_da_Bahia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mesquita"/>
+        <NamedIndividual IRI="#Centro_Cultural_Islâmico_da_Bahia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Centro"/>
+        <NamedIndividual IRI="#Centro_Espírita_Allan_Kardec"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Centro_Espírita_Allan_Kardec"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Chanukiá_Bet_Chabad_Salvador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sinagoga"/>
+        <NamedIndividual IRI="#Chanukiá_Bet_Chabad_Salvador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Ensino"/>
+        <NamedIndividual IRI="#Colégio_Antônio_Vieira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Habitacional"/>
+        <NamedIndividual IRI="#Condomínio_Quinta_da_Graça"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Convento"/>
+        <NamedIndividual IRI="#Convento_da_Lapa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Convento_da_Lapa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <NamedIndividual IRI="#Drogasil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Farmácia"/>
+        <NamedIndividual IRI="#Drogasil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <NamedIndividual IRI="#Estádio_Manoel_Barradas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estádio"/>
+        <NamedIndividual IRI="#Estádio_Manoel_Barradas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Saude"/>
+        <NamedIndividual IRI="#Hospital_Geral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secundário"/>
+        <NamedIndividual IRI="#Hospital_Geral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Saude"/>
+        <NamedIndividual IRI="#Hospital_Mulher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terciário"/>
+        <NamedIndividual IRI="#Hospital_Mulher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Saude"/>
+        <NamedIndividual IRI="#Hospital_Ortopédico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terciário"/>
+        <NamedIndividual IRI="#Hospital_Ortopédico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Igreja_Universal_do_Reino_de_Deus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Templo"/>
+        <NamedIndividual IRI="#Igreja_Universal_do_Reino_de_Deus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Igreja_Vitória"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Igreja"/>
+        <NamedIndividual IRI="#Igreja_Vitória"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Igreja_de_Jesus_Cristo_dos_Santos_dos_Últimos_Dias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Igreja"/>
+        <NamedIndividual IRI="#Igreja_de_Jesus_Cristo_dos_Santos_dos_Últimos_Dias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Igreja_do_Bonfim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Igreja"/>
+        <NamedIndividual IRI="#Igreja_do_Bonfim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <NamedIndividual IRI="#La_Empa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restaurante"/>
+        <NamedIndividual IRI="#La_Empa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Saude"/>
+        <NamedIndividual IRI="#Laboratório_Leme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Primário"/>
+        <NamedIndividual IRI="#Laboratório_Leme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <NamedIndividual IRI="#Mercado_Modelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Galeria"/>
+        <NamedIndividual IRI="#Mercado_Modelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Mosteiro_de_São_Bento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mosteiro"/>
+        <NamedIndividual IRI="#Mosteiro_de_São_Bento"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <NamedIndividual IRI="#Museu_de_Arte_Moderna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Museu"/>
+        <NamedIndividual IRI="#Museu_de_Arte_Moderna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Posto_Combustivel"/>
+        <NamedIndividual IRI="#Posto_Marina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hab_Indigena"/>
+        <NamedIndividual IRI="#Reserva_Indígena_Pataxó_da_Jaqueira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#coletiva"/>
+        <NamedIndividual IRI="#Reserva_Indígena_Pataxó_da_Jaqueira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <NamedIndividual IRI="#Teatro_Castro_Alves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teatro"/>
+        <NamedIndividual IRI="#Teatro_Castro_Alves"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Religiosa"/>
+        <NamedIndividual IRI="#Terreiro_Iyá_Omin_Axé_Iyá_Massê"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terreiro"/>
+        <NamedIndividual IRI="#Terreiro_Iyá_Omin_Axé_Iyá_Massê"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Saude"/>
+        <NamedIndividual IRI="#UPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Primário"/>
+        <NamedIndividual IRI="#UPA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Edif_Ensino"/>
+        <NamedIndividual IRI="#Universidade_Federal_da_Bahia"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+        <NamedIndividual IRI="#Drogasil"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+        <NamedIndividual IRI="#La_Empa"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Capela_Cemitério_Campo_Santo"/>
+        <NamedIndividual IRI="#Centro_Cultural_Islâmico_da_Bahia"/>
+        <NamedIndividual IRI="#Centro_Espírita_Allan_Kardec"/>
+        <NamedIndividual IRI="#Chanukiá_Bet_Chabad_Salvador"/>
+        <NamedIndividual IRI="#Convento_da_Lapa"/>
+        <NamedIndividual IRI="#Igreja_Universal_do_Reino_de_Deus"/>
+        <NamedIndividual IRI="#Igreja_Vitória"/>
+        <NamedIndividual IRI="#Igreja_de_Jesus_Cristo_dos_Santos_dos_Últimos_Dias"/>
+        <NamedIndividual IRI="#Igreja_do_Bonfim"/>
+        <NamedIndividual IRI="#Mosteiro_de_São_Bento"/>
+        <NamedIndividual IRI="#Terreiro_Iyá_Omin_Axé_Iyá_Massê"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Colégio_Antônio_Vieira"/>
+        <NamedIndividual IRI="#Universidade_Federal_da_Bahia"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Condomínio_Quinta_da_Graça"/>
+        <NamedIndividual IRI="#Reserva_Indígena_Pataxó_da_Jaqueira"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Drogasil"/>
+        <NamedIndividual IRI="#La_Empa"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Estádio_Manoel_Barradas"/>
+        <NamedIndividual IRI="#Mercado_Modelo"/>
+        <NamedIndividual IRI="#Museu_de_Arte_Moderna"/>
+        <NamedIndividual IRI="#Teatro_Castro_Alves"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Hospital_Geral"/>
+        <NamedIndividual IRI="#Hospital_Mulher"/>
+        <NamedIndividual IRI="#Hospital_Ortopédico"/>
+        <NamedIndividual IRI="#Laboratório_Leme"/>
+        <NamedIndividual IRI="#UPA"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tem_nome"/>
+        <NamedIndividual IRI="#Estádio_Manoel_Barradas"/>
+        <NamedIndividual IRI="#Estádio_Manoel_Barradas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tem_nome"/>
+        <NamedIndividual IRI="#Terreiro_Iyá_Omin_Axé_Iyá_Massê"/>
+        <NamedIndividual IRI="#Terreiro_Iyá_Omin_Axé_Iyá_Massê"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tem_nome"/>
+        <NamedIndividual IRI="#Universidade_Federal_da_Bahia"/>
+        <NamedIndividual IRI="#Universidade_Federal_da_Bahia"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#Estádio_Manoel_Barradas"/>
+        <Literal xml:lang="pt">Barradão</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#Terreiro_Iyá_Omin_Axé_Iyá_Massê"/>
+        <Literal xml:lang="pt">Terreiro do Gantois</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <NamedIndividual IRI="#Universidade_Federal_da_Bahia"/>
+        <Literal xml:lang="pt">UFBA</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está_operacional"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem_altura_aprox"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem_geom_aprox"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem_nome"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_cultural"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é_turística"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#está_operacional"/>
+        <DataAllValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tem_altura_aprox"/>
+        <DataAllValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="owl:real"/>
+        </DataAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tem_geom_aprox"/>
+        <DataAllValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tem_nome"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        </DataExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é_cultural"/>
+        <DataAllValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é_turística"/>
+        <DataAllValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataAllValuesFrom>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Anfiteatro</IRI>
+        <Literal xml:lang="pt">Arenas ovais ou circulares rodeadas de degraus a céu 
+aberto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anfiteatro</IRI>
+        <Literal xml:lang="pt">Anfiteatro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Apiário</IRI>
+        <Literal xml:lang="pt">Apiário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Arquivo</IRI>
+        <Literal xml:lang="pt">Incluem-se os arquivos públicos e privados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Arquivo</IRI>
+        <Literal xml:lang="pt">Arquivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Aviário</IRI>
+        <Literal xml:lang="pt">Aviário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Banca_de_jornal</IRI>
+        <Literal xml:lang="pt">Banca de jornal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Banco</IRI>
+        <Literal xml:lang="pt">Banco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Banheiro_Público</IRI>
+        <Literal xml:lang="pt">Banheiro público é uma edificação, geralmente localizada em espaços de uso coletivo, com instalações sanitárias para higiene pessoal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Banheiro_Público</IRI>
+        <Literal xml:lang="pt">Banheiro público</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Biblioteca</IRI>
+        <Literal xml:lang="pt">Refere-se a bibliotecas públicas, privadas, escolares, universitárias ou comunitárias (incluindo os pontos de leitura).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biblioteca</IRI>
+        <Literal xml:lang="pt">Biblioteca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Capela_mortuária</IRI>
+        <Literal xml:lang="pt">Capela mortuária</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Centro</IRI>
+        <Literal xml:lang="pt">Centro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Centro_comercial</IRI>
+        <Literal xml:lang="pt">Estrutura que contém estabelecimentos comerciais e de prestação de serviços (shopping center).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Centro_comercial</IRI>
+        <Literal xml:lang="pt">Centro comercial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Centro_cultural</IRI>
+        <Literal xml:lang="pt">Incluem-se os centros culturais públicos 
+e privados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Centro_cultural</IRI>
+        <Literal xml:lang="pt">Centro cultural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Centro_de_convenções</IRI>
+        <Literal xml:lang="pt">Local em que ocorrem locação de salas e auditório(s) para os mais diversos tipos de eventos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Centro_de_convenções</IRI>
+        <Literal xml:lang="pt">Centro de convenções</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Centro_de_documentação</IRI>
+        <Literal xml:lang="pt">Incluem-se os centros de documentação públicos e privados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Centro_de_documentação</IRI>
+        <Literal xml:lang="pt">Centro de documentação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Centro_de_exposições</IRI>
+        <Literal xml:lang="pt">Centro de exposições</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Circo</IRI>
+        <Literal xml:lang="pt">Refere-se aos circos fixos e aos terrenos destinados ao circos itinerantes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Circo</IRI>
+        <Literal xml:lang="pt">Circo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Comercial</IRI>
+        <Literal xml:lang="pt">Comercialização de bens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Comercial</IRI>
+        <Literal xml:lang="pt">Comercial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Comércio_de_carnes</IRI>
+        <Literal xml:lang="pt">Comércio de carnes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concha_acústica</IRI>
+        <Literal xml:lang="pt">Concha acústica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Conservatório</IRI>
+        <Literal xml:lang="pt">Conservatório</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Convento</IRI>
+        <Literal xml:lang="pt">Convento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coreto_ou_tribuna</IRI>
+        <Literal xml:lang="pt">Coreto ou tribuna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Curral</IRI>
+        <Literal xml:lang="pt">Curral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#EDGV_Edificação</IRI>
+        <Literal xml:lang="pt">Edificação é uma construção destinada a diversos fins.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EDGV_Edificação</IRI>
+        <Literal xml:lang="pt">EDGV_Edificação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Agropec_Ext_Vegetal_Pesca</IRI>
+        <Literal xml:lang="pt">Edificação agropecuária, de extrativismo vegetal e/ou pesca é uma edificação ou construção de propriedades onde se exercem atividades de natureza agropecuária ou de extrativismo vegetal e/ou pesqueira.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Agropec_Ext_Vegetal_Pesca</IRI>
+        <Literal xml:lang="pt">Edificação agropecuária, de extrativismo vegetal e/ou pesca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Comerc_Serv</IRI>
+        <Literal xml:lang="pt">Edificação de comércio ou serviços é uma edificação com funcionalidades comerciais ou de prestação de serviços.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Comerc_Serv</IRI>
+        <Literal xml:lang="pt">Edificação de comércio ou serviços</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Constr_Est_Med_Fen</IRI>
+        <Literal xml:lang="pt">Edificação ou construção de estação de medição de fenômenos é aquela cuja funcionalidade se relaciona à medição, avaliaçào e acompanhamento de fenômenos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Constr_Est_Med_Fen</IRI>
+        <Literal xml:lang="pt">Edificação ou construção de estação de medição de fenômenos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Constr_Lazer</IRI>
+        <Literal xml:lang="pt">Edificação ou construção de lazer é aquela cujas atividades estão ligadas ao lazer, recreação, esporte e/ou cultura.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Constr_Lazer</IRI>
+        <Literal xml:lang="pt">Edificação ou construção de lazer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Ensino</IRI>
+        <Literal xml:lang="pt">Edificação de ensino é aquela cujas atividades estão relacionadas à formação e/ou aperfeiçoamento e/ou pesquisa de cunho educacional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Ensino</IRI>
+        <Literal xml:lang="pt">Edificação de ensino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Ext_Mineral</IRI>
+        <Literal xml:lang="pt">Edificação de extrativismo mineral é aquela com funcionalidade relacionada à atividade extrativa mineral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Ext_Mineral</IRI>
+        <Literal xml:lang="pt">Edificação de extrativismo mineral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Habitacional</IRI>
+        <Literal xml:lang="pt">Edificação habitacional é aquela com funcionalidade de habitação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Habitacional</IRI>
+        <Literal xml:lang="pt">Edificação habitacional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Religiosa</IRI>
+        <Literal xml:lang="pt">Edificação religiosa é aquela destinada a culto e/ou reuniões de caráter religioso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Religiosa</IRI>
+        <Literal xml:lang="pt">Edificação religiosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Residencial</IRI>
+        <Literal xml:lang="pt">Edificação residencial é uma edificação com função eminentemente residencial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Residencial</IRI>
+        <Literal xml:lang="pt">Edificação residencial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Edif_Saude</IRI>
+        <Literal xml:lang="pt">Edificação de saúde é aquela cujas atividades estão relacionadas ao atendimento médico e/ou pesquisa no campo de saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Saude</IRI>
+        <Literal xml:lang="pt">Edificação de saúde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Equipamentos_culturais_diversos</IRI>
+        <Literal xml:lang="pt">Incluem-se auditeca, sala de leitura, livraria, sebo, videolocadora, lan house, antiquário, alteliê de artes plásticas, centro de artesanato, casa de espetáculos, danceteria, estúdio, criative bureau, centro comunitário, casa do patrimônio, usina cultural, centro de artes e esportes unificados – CEUS, sala de dança, gafieira, espaço de apresentação de dança, quadra de escola de samba.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Equipamentos_culturais_diversos</IRI>
+        <Literal xml:lang="pt">Equipamentos culturais diversos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Espaço_de_eventos_e_ou_cultural</IRI>
+        <Literal xml:lang="pt">Edificação onde são realizadas atividades de cunho cultural.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Espaço_de_eventos_e_ou_cultural</IRI>
+        <Literal xml:lang="pt">Espaço de eventos e/ou cultural</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Espaço_de_exibição_de_filmes</IRI>
+        <Literal xml:lang="pt">Refere-se a cine itinerante, cineclube, drive-in, espaço público para exibição de filmese sala de cinema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Espaço_de_exibição_de_filmes</IRI>
+        <Literal xml:lang="pt">Espaço de exibição de filmes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Estádio</IRI>
+        <Literal xml:lang="pt">Construção que permite a prática de esportes que requeiram grandes espaços, como futebol, beisebol ou atletismo.
+Em um estádio também são realizados grandes eventos, uma vez que seu tamanho permite a concentração de um grande público.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estádio</IRI>
+        <Literal xml:lang="pt">Estádio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Farmácia</IRI>
+        <Literal xml:lang="pt">Farmácia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Galeria</IRI>
+        <Literal xml:lang="pt">Galeria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ginásio</IRI>
+        <Literal xml:lang="pt">Construção voltada para a prática de esportes que requerem locais fechados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ginásio</IRI>
+        <Literal xml:lang="pt">Ginásio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Hab_Indigena</IRI>
+        <Literal xml:lang="pt">Edificação indígena é aquela habitada por indígenas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hab_Indigena</IRI>
+        <Literal xml:lang="pt">Edificação indígena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Hotel</IRI>
+        <Literal xml:lang="pt">Estabelecimento comercial especializado em proporcionar acomodações para viajantes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hotel</IRI>
+        <Literal xml:lang="pt">Hotel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Igreja</IRI>
+        <Literal xml:lang="pt">Igreja</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Loja_de_conveniência</IRI>
+        <Literal xml:lang="pt">Loja de conveniência</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Loja_de_materiais_de_construção_e_ou_ferragem</IRI>
+        <Literal xml:lang="pt">Loja de materiais de construção e/ou ferragem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Loja_de_móveis</IRI>
+        <Literal xml:lang="pt">Loja de móveis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Loja_de_roupas_e_ou_tecidos</IRI>
+        <Literal xml:lang="pt">Loja de roupas e/ou tecidos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mercado_público</IRI>
+        <Literal xml:lang="pt">Mercado público</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mesquita</IRI>
+        <Literal xml:lang="pt">Mesquita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mosteiro</IRI>
+        <Literal xml:lang="pt">Mosteiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Motel</IRI>
+        <Literal xml:lang="pt">Motel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Museu</IRI>
+        <Literal xml:lang="pt">Edificação a serviço da sociedade e de seu desenvolvimento e aberto ao público, que adquire, conserva, pesquisa, comunica e exibe para finalidades do estudo, da instrução e da apreciação, evidência material dos povos e seu ambiente.
+Incluem-se os museus públicos e privados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Museu</IRI>
+        <Literal xml:lang="pt">Museu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#OSM_Tags</IRI>
+        <Literal xml:lang="pt">Identifica tags do OSM que podem ter correspondência com as demais classes desta ontologia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OSM_Tags</IRI>
+        <Literal xml:lang="pt">OSM_Tags</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oficina_mecânica</IRI>
+        <Literal xml:lang="pt">Oficina mecânica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Outros_comércios</IRI>
+        <Literal xml:lang="pt">Outros comércios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Outros_serviços</IRI>
+        <Literal xml:lang="pt">Outros serviços</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plataforma_de_pesca</IRI>
+        <Literal xml:lang="pt">Instalação ou estrutura, fixa ou móvel, destinada a atividade direta ou indiretamente relacionada com a pesca, seja marítima, fluvial ou mesmo lacustre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plataforma_de_pesca</IRI>
+        <Literal xml:lang="pt">Plataforma de pesca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Pocilga</IRI>
+        <Literal xml:lang="pt">Edificação ou local onde são criados porcos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pocilga</IRI>
+        <Literal xml:lang="pt">Pocilga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Posto_Combustivel</IRI>
+        <Literal xml:lang="pt">Posto de combustível é o local onde são feitos os abastecimentos de combustíveis aos veículos e embarcações que trafegam por uma via de transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Posto_Combustivel</IRI>
+        <Literal xml:lang="pt">Posto de combustível</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pousada</IRI>
+        <Literal xml:lang="pt">Pousada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Primário</IRI>
+        <Literal xml:lang="pt">Abrange os postos ou centros de saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Primário</IRI>
+        <Literal xml:lang="pt">Primário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quitanda</IRI>
+        <Literal xml:lang="pt">Quitanda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Residencial</IRI>
+        <Literal xml:lang="pt">Moradia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Residencial</IRI>
+        <Literal xml:lang="pt">Residencial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Restaurante</IRI>
+        <Literal xml:lang="pt">Restaurante</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Secundário</IRI>
+        <Literal xml:lang="pt">Abrange os hospitais gerais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Secundário</IRI>
+        <Literal xml:lang="pt">Secundário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sede_operacional_de_fazenda</IRI>
+        <Literal xml:lang="pt">Sede operacional de fazenda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Serviço</IRI>
+        <Literal xml:lang="pt">Prestação de serviços.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Serviço</IRI>
+        <Literal xml:lang="pt">Serviço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sinagoga</IRI>
+        <Literal xml:lang="pt">Sinagoga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Supermercado</IRI>
+        <Literal xml:lang="pt">Supermercado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Teatro</IRI>
+        <Literal xml:lang="pt">Edificação onde ocorrem apresentações artísticas como peças de teatro ou ainda o palco ao ar livre onde se desenvolvem as atividades no centro de uma elipse ou circunferência contendo a plateia.
+Incluem-se os teatros públicos e privados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Teatro</IRI>
+        <Literal xml:lang="pt">Teatro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Templo</IRI>
+        <Literal xml:lang="pt">Templo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Terciário</IRI>
+        <Literal xml:lang="pt">Abrange os hospitais especializados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terciário</IRI>
+        <Literal xml:lang="pt">Terciário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terreiro</IRI>
+        <Literal xml:lang="pt">Terreiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Venda_de_veículos</IRI>
+        <Literal xml:lang="pt">Venda de veículos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Viveiro_de_plantas</IRI>
+        <Literal xml:lang="pt">Viveiro de plantas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Viveiro_para_aquicultura</IRI>
+        <Literal xml:lang="pt">Edificação usada para a criação ou cultivo controlado de peixes, moluscos e plantas aquáticas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Viveiro_para_aquicultura</IRI>
+        <Literal xml:lang="pt">Viveiro para aquicultura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#coletiva</IRI>
+        <Literal xml:lang="pt">Indica se a habitação é coletiva ou não, ou seja, se é habitada por mais de uma família (verdadeiro) ou não.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#coletiva</IRI>
+        <Literal xml:lang="pt">Coletiva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#cristã</IRI>
+        <Literal xml:lang="pt">Indica se a edificação ou construção religiosa pertence à religião cristã.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cristã</IRI>
+        <Literal xml:lang="pt">Cristã</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ensino</IRI>
+        <Literal xml:lang="pt">Indica se a edificação religiosa também comporta a funcionalidade de educação, além da finalidade religiosa propriamente dita.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ensino</IRI>
+        <Literal xml:lang="pt">Ensino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#está_operacional</IRI>
+        <Literal xml:lang="pt">Indica a situação em relação ao uso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#finalidade</IRI>
+        <Literal xml:lang="pt">Indica a finalidade da edificação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#finalidade</IRI>
+        <Literal xml:lang="pt">Finalidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#isolada</IRI>
+        <Literal xml:lang="pt">Indica se a habitação é isolada ou não, ou seja, se não há outras habitações indígenas ao seu redor (verdadeiro), ou há (falso).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isolada</IRI>
+        <Literal xml:lang="pt">Isolada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#nivelAtencao</IRI>
+        <Literal xml:lang="pt">Indica o nível de atenção à saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nivelAtencao</IRI>
+        <Literal xml:lang="pt">Nível de atenção</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#religião</IRI>
+        <Literal xml:lang="pt">A religião praticada na edificação religiosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#religião</IRI>
+        <Literal xml:lang="pt">Religião</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tem_altura_aprox</IRI>
+        <Literal xml:lang="pt">Indica a altura não comprovada adquirida por processos indiretos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tem_geom_aprox</IRI>
+        <Literal xml:lang="pt">Indica que a geometria adquirida é aproximada em relação à escala prevista para o produto cartográfico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tem_nome</IRI>
+        <Literal xml:lang="pt">Indica o nome completo da instância.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tipoEdifAgropec</IRI>
+        <Literal xml:lang="pt">Indica o tipo da edificação agropecuária, de extrativismo vegetal ou de pesca.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoEdifAgropec</IRI>
+        <Literal xml:lang="pt">Tipo da edificação agropecuária</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tipoEdifComercServ</IRI>
+        <Literal xml:lang="pt">Indica o tipo da edificação comercial ou de serviços.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoEdifComercServ</IRI>
+        <Literal xml:lang="pt">Tipo da edificação comercial ou de serviços</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tipoEdifLazer</IRI>
+        <Literal xml:lang="pt">Indica o tipo da edificação ou construção de lazer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoEdifLazer</IRI>
+        <Literal xml:lang="pt">Tipo de edificação de lazer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#tipoEdifRelig</IRI>
+        <Literal xml:lang="pt">Indica a denominação específica da edificação religiosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tipoEdifRelig</IRI>
+        <Literal xml:lang="pt">Tipo de edificação religiosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#é_cultural</IRI>
+        <Literal xml:lang="pt">Indica se a edificação é cultural ou não.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#é_turística</IRI>
+        <Literal xml:lang="pt">Indica se a edificacao possui características turísticas.</Literal>
+    </AnnotationAssertion>
+</Ontology>

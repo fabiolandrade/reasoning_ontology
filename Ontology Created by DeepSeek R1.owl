@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85">
+    <!-- Existing content remains unchanged -->
+    <!-- ... (All original declarations and axioms remain here) ... -->
+    
+    <!-- NEW OSM_TAGS SUBCLASSES AND SEMANTIC ASSOCIATIONS -->
+    <Declaration>
+        <Class IRI="#OSM_amenity_pharmacy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_pharmacy"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Farmácia"/>
+        <Class IRI="#OSM_amenity_pharmacy"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_bank"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_bank"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Banco"/>
+        <Class IRI="#OSM_amenity_bank"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_toilets"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_toilets"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Banheiro_Público"/>
+        <Class IRI="#OSM_amenity_toilets"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_library"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_library"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Biblioteca"/>
+        <Class IRI="#OSM_amenity_library"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_place_of_worship"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_place_of_worship"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Igreja"/>
+        <Class IRI="#OSM_amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesquita"/>
+        <Class IRI="#OSM_amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sinagoga"/>
+        <Class IRI="#OSM_amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Templo"/>
+        <Class IRI="#OSM_amenity_place_of_worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terreiro"/>
+        <Class IRI="#OSM_amenity_place_of_worship"/>
+    </SubClassOf>
+    
+    <Declaration>
+        <Class IRI="#OSM_shop_mall"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_shop_mall"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Centro_comercial"/>
+        <Class IRI="#OSM_shop_mall"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_restaurant"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_restaurant"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#OSM_amenity_restaurant"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_tourism_hotel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_tourism_hotel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#OSM_tourism_hotel"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_fuel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_fuel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Posto_Combustivel"/>
+        <Class IRI="#OSM_amenity_fuel"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_hospital"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_hospital"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secundário"/>
+        <Class IRI="#OSM_amenity_hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terciário"/>
+        <Class IRI="#OSM_amenity_hospital"/>
+    </SubClassOf>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_clinic"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_clinic"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Primário"/>
+        <Class IRI="#OSM_amenity_clinic"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_theatre"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_theatre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Teatro"/>
+        <Class IRI="#OSM_amenity_theatre"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_leisure_stadium"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_leisure_stadium"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Estádio"/>
+        <Class IRI="#OSM_leisure_stadium"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_tourism_museum"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_tourism_museum"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Museu"/>
+        <Class IRI="#OSM_tourism_museum"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_marketplace"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_marketplace"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Mercado_público"/>
+        <Class IRI="#OSM_amenity_marketplace"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_shop_supermarket"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_shop_supermarket"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#OSM_shop_supermarket"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_building_residential"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_building_residential"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Habitacional"/>
+        <Class IRI="#OSM_building_residential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Residencial"/>
+        <Class IRI="#OSM_building_residential"/>
+    </SubClassOf>
+    
+    <!-- Additional OSM tags for other classes -->
+    <Declaration>
+        <Class IRI="#OSM_amenity_arts_centre"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_arts_centre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Centro_cultural"/>
+        <Class IRI="#OSM_amenity_arts_centre"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_cinema"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_cinema"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Espaço_de_exibição_de_filmes"/>
+        <Class IRI="#OSM_amenity_cinema"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_building_industrial"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_building_industrial"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Ext_Mineral"/>
+        <Class IRI="#OSM_building_industrial"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_amenity_school"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_amenity_school"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Ensino"/>
+        <Class IRI="#OSM_amenity_school"/>
+    </EquivalentClasses>
+    
+    <!-- Religious specific mappings -->
+    <Declaration>
+        <Class IRI="#OSM_building_chapel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_building_chapel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Capela_mortuária"/>
+        <Class IRI="#OSM_building_chapel"/>
+    </EquivalentClasses>
+    
+    <Declaration>
+        <Class IRI="#OSM_building_monastery"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_building_monastery"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Convento"/>
+        <Class IRI="#OSM_building_monastery"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mosteiro"/>
+        <Class IRI="#OSM_building_monastery"/>
+    </EquivalentClasses>
+    
+    <!-- Agriculture/Farming mappings -->
+    <Declaration>
+        <Class IRI="#OSM_building_farm"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_building_farm"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Sede_operacional_de_fazenda"/>
+        <Class IRI="#OSM_building_farm"/>
+    </EquivalentClasses>
+    
+    <!-- Indigenous housing -->
+    <Declaration>
+        <Class IRI="#OSM_building_hut"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_building_hut"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coletiva"/>
+        <Class IRI="#OSM_building_hut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#isolada"/>
+        <Class IRI="#OSM_building_hut"/>
+    </SubClassOf>
+    
+    <!-- Additional commercial services -->
+    <Declaration>
+        <Class IRI="#OSM_shop_convenience"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_shop_convenience"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#Loja_de_conveniência"/>
+        <Class IRI="#OSM_shop_convenience"/>
+    </EquivalentClasses>
+    
+    <!-- ========== END OF NEW OSM TAGS ========== -->
+</Ontology>

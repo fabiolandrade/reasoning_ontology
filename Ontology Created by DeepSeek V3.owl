@@ -1,0 +1,138 @@
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85">
+
+    <!-- Add new subclasses to OSM_Tags -->
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#amenity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#shop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#leisure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#tourism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#healthcare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#religion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#historic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags"/>
+        <Class IRI="#landuse"/>
+    </SubClassOf>
+
+    <!-- Semantic associations between EDGV_Edificações subclasses and OSM tags -->
+    <SubClassOf>
+        <Class IRI="#Edif_Saude"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#healthcare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Religiosa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#religion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#shop"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#leisure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Agropec_Ext_Vegetal_Pesca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#landuse"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Ensino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#amenity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Habitacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#building"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Residencial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#building"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Ext_Mineral"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#landuse"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Constr_Est_Med_Fen"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#historic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Constr_Lazer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#tourism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+
+    <!-- Define the hasOSMTag object property -->
+    <Declaration>
+        <ObjectProperty IRI="#hasOSMTag"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOSMTag"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOSMTag"/>
+        <Class IRI="#OSM_Tags"/>
+    </ObjectPropertyRange>
+</Ontology>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85-extended"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85-extended">
+
+    <!-- ######################################################## -->
+    <!--  1) Prefix declarations                                  -->
+    <!-- ######################################################## -->
+
+    <Prefix name="" IRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85-extended#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+
+    <!-- ######################################################## -->
+    <!--  2) Original Classes, Object Properties, Individuals     -->
+    <!--     (From your existing ontology)                        -->
+    <!-- ######################################################## -->
+
+    <!-- We keep the original declarations. For brevity, many of the
+         AnnotationAssertions (rdfs:label, rdfs:isDefinedBy) are omitted here,
+         but in practice you would keep them. -->
+
+    <!-- Example for EDGV_Edificação -->
+    <Declaration>
+        <Class IRI="#EDGV_Edificação"/>
+    </Declaration>
+
+    <!-- Example for a few classes under EDGV_Edificação -->
+    <Declaration>
+        <Class IRI="#Banco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmácia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Igreja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesquita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sinagoga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Templo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teatro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supermercado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banca_de_jornal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja_de_conveniência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posto_Combustivel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banheiro_Público"/>
+    </Declaration>
+    <!-- etc. (All other classes omitted for brevity but should remain) -->
+
+    <!-- Subclass relationships (examples) -->
+    <SubClassOf>
+        <Class IRI="#Banco"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmácia"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Igreja"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesquita"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sinagoga"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Templo"/>
+        <Class IRI="#tipoEdifRelig"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teatro"/>
+        <Class IRI="#tipoEdifLazer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banca_de_jornal"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja_de_conveniência"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posto_Combustivel"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banheiro_Público"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </SubClassOf>
+    <!-- etc. (All the other SubClassOf statements from the original ontology) -->
+
+    <!-- Object Properties from original ontology -->
+    <Declaration>
+        <ObjectProperty IRI="#está_operacional"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_altura_aprox"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_geom_aprox"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem_nome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_cultural"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é_turística"/>
+    </Declaration>
+
+    <!-- Existing class OSM_Tags (declared in the original). -->
+    <Declaration>
+        <Class IRI="#OSM_Tags"/>
+    </Declaration>
+
+    <!-- Named Individuals examples (only a few shown) -->
+    <Declaration>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restaurante"/>
+        <NamedIndividual IRI="#Cantina_Volpi"/>
+    </ClassAssertion>
+    <!-- ... (All other individuals from the original) -->
+
+
+    <!-- ######################################################## -->
+    <!--  3) NEW: Additional object property to link OSM tags      -->
+    <!--     to EDGV classes                                       -->
+    <!-- ######################################################## -->
+
+    <!-- We'll define a new property, e.g. "#mapsToEDGVClass", used to
+         express that an OSM tag class is semantically associated with
+         a certain EDGV class. -->
+
+    <Declaration>
+        <ObjectProperty IRI="#mapsToEDGVClass"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mapsToEDGVClass</IRI>
+        <Literal xml:lang="en">maps to EDGV class</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#mapsToEDGVClass</IRI>
+        <Literal xml:lang="en"
+        >Relates an OSM tag class to the semantically equivalent or similar EDGV class.</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- ######################################################## -->
+    <!--  4) NEW: Creating Subclasses for OSM_Tags                -->
+    <!--     + Equivalence/Association with EDGV classes          -->
+    <!-- ######################################################## -->
+
+    <!--
+      Syntax pattern used below:
+
+      1) Declare a new Class for the OSM tag (e.g. #amenity_bank).
+      2) Make it a SubClassOf #OSM_Tags.
+      3) Show it is semantically connected to the EDGV class, typically
+         using an EquivalentClasses axiom with ObjectSomeValuesFrom:
+
+         <EquivalentClasses>
+           <Class IRI="#amenity_bank"/>
+           <ObjectSomeValuesFrom>
+             <ObjectProperty IRI="#mapsToEDGVClass"/>
+             <Class IRI="#Banco"/>
+           </ObjectSomeValuesFrom>
+         </EquivalentClasses>
+
+      This way, any instance of #amenity_bank implies there is at least
+      one #mapsToEDGVClass that is #Banco (and vice versa if you prefer
+      a strict equivalence).
+    -->
+
+    <!-- Example: OSM tag "amenity=bank" -> EDGV class "Banco" -->
+    <Declaration>
+        <Class IRI="#amenity_bank"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_bank"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_bank"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Banco"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "amenity=pharmacy" -> EDGV class "Farmácia" -->
+    <Declaration>
+        <Class IRI="#amenity_pharmacy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_pharmacy"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_pharmacy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Farmácia"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "amenity=restaurant" -> EDGV class "Restaurante" -->
+    <Declaration>
+        <Class IRI="#amenity_restaurant"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_restaurant"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_restaurant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Restaurante"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "amenity=place_of_worship" + religion=christian -> "Igreja" -->
+    <!-- For simplicity, we just link "amenity=place_of_worship" (Christian) to "Igreja". -->
+    <Declaration>
+        <Class IRI="#amenity_place_of_worship_christian"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_place_of_worship_christian"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_place_of_worship_christian"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Igreja"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Similarly for Mesquita (religion=muslim) -->
+    <Declaration>
+        <Class IRI="#amenity_place_of_worship_muslim"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_place_of_worship_muslim"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_place_of_worship_muslim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Mesquita"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- And for Sinagoga (religion=jewish) -->
+    <Declaration>
+        <Class IRI="#amenity_place_of_worship_jewish"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_place_of_worship_jewish"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_place_of_worship_jewish"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Sinagoga"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Templo (generic place of worship) -->
+    <Declaration>
+        <Class IRI="#amenity_place_of_worship_generic"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_place_of_worship_generic"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_place_of_worship_generic"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Templo"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "amenity=theatre" -> EDGV class "Teatro" -->
+    <Declaration>
+        <Class IRI="#amenity_theatre"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_theatre"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_theatre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Teatro"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "shop=supermarket" -> EDGV class "Supermercado" -->
+    <Declaration>
+        <Class IRI="#shop_supermarket"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#shop_supermarket"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#shop_supermarket"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Supermercado"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "shop=newsagent" -> EDGV class "Banca_de_jornal" -->
+    <Declaration>
+        <Class IRI="#shop_newsagent"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#shop_newsagent"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#shop_newsagent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Banca_de_jornal"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "shop=convenience" -> EDGV class "Loja_de_conveniência" -->
+    <Declaration>
+        <Class IRI="#shop_convenience"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#shop_convenience"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#shop_convenience"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Loja_de_conveniência"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "amenity=fuel" -> EDGV class "Posto_Combustivel" -->
+    <Declaration>
+        <Class IRI="#amenity_fuel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_fuel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_fuel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Posto_Combustivel"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "amenity=toilets" -> EDGV class "Banheiro_Público" -->
+    <Declaration>
+        <Class IRI="#amenity_toilets"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#amenity_toilets"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#amenity_toilets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Banheiro_Público"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: OSM tag "tourism=hotel" -> EDGV class "Hotel" -->
+    <Declaration>
+        <Class IRI="#tourism_hotel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#tourism_hotel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <EquivalentClasses>
+        <Class IRI="#tourism_hotel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsToEDGVClass"/>
+            <Class IRI="#Hotel"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+
+    <!-- ######################################################## -->
+    <!--  5) Remainder of your original ontology: DataProperty    -->
+    <!--     declarations, domain/range constraints, individuals, -->
+    <!--     disjointness axioms, etc. (omitted for brevity)      -->
+    <!-- ######################################################## -->
+
+    <!-- For example, the domain/range constraints from the original: -->
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está_operacional"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem_altura_aprox"/>
+        <Class IRI="#EDGV_Edificação"/>
+    </ObjectPropertyDomain>
+    <!-- ... and so on ... -->
+
+
+</Ontology>

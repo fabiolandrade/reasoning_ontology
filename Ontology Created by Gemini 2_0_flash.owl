@@ -1,0 +1,191 @@
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         ontologyIRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85">
+
+    <Declaration> <Class IRI="#OSM_Tags_building"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_toilets"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_apiary"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_poultry_house"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_cowshed"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_pigsty"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_farm"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_landuse_plant_nursery"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_landuse_aquaculture"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_newsagent"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_bank"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_mall"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_convention_centre"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_tourism_exhibition_centre"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_butcher"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_pharmacy"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_tourism_hotel"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_convenience"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_hardware"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_furniture"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_clothes"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_marketplace"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_tourism_motel"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_car_repair"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_yes"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_office_company"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_tourism_guest_house"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_greengrocer"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_restaurant"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_supermarket"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_shop_car"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_leisure_amphitheatre"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_archive"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_library"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_cultural_centre"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_leisure_circus"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_leisure_bandstand"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_arts_centre"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_leisure_gazebo"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_events_venue"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_cinema"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_leisure_stadium"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_tourism_gallery"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_leisure_sports_hall"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_tourism_museum"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_leisure_fishing_pier"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_theatre"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_funeral_home"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_religious"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_convent"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_church"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_mosque"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_building_monastery"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_synagogue"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_place_of_worship"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_place_of_worship_african_traditional"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_clinic"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_hospital"/> </Declaration>
+    <Declaration> <Class IRI="#OSM_Tags_amenity_fuel"/> </Declaration>
+
+    <SubClassOf> <Class IRI="#EDGV_Edificação"/> <Class IRI="#OSM_Tags_building"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Banheiro_Público"/> <Class IRI="#OSM_Tags_amenity_toilets"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Apiário"/> <Class IRI="#OSM_Tags_building_apiary"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Aviário"/> <Class IRI="#OSM_Tags_building_poultry_house"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Curral"/> <Class IRI="#OSM_Tags_building_cowshed"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Pocilga"/> <Class IRI="#OSM_Tags_building_pigsty"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Sede_operacional_de_fazenda"/> <Class IRI="#OSM_Tags_building_farm"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Viveiro_de_plantas"/> <Class IRI="#OSM_Tags_landuse_plant_nursery"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Viveiro_para_aquicultura"/> <Class IRI="#OSM_Tags_landuse_aquaculture"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Banca_de_jornal"/> <Class IRI="#OSM_Tags_shop_newsagent"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Banco"/> <Class IRI="#OSM_Tags_amenity_bank"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Centro_comercial"/> <Class IRI="#OSM_Tags_shop_mall"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Centro_de_convenções"/> <Class IRI="#OSM_Tags_amenity_convention_centre"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Centro_de_exposições"/> <Class IRI="#OSM_Tags_tourism_exhibition_centre"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Comércio_de_carnes"/> <Class IRI="#OSM_Tags_shop_butcher"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Farmácia"/> <Class IRI="#OSM_Tags_amenity_pharmacy"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Hotel"/> <Class IRI="#OSM_Tags_tourism_hotel"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Loja_de_conveniência"/> <Class IRI="#OSM_Tags_shop_convenience"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Loja_de_materiais_de_construção_e_ou_ferragem"/> <Class IRI="#OSM_Tags_shop_hardware"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Loja_de_móveis"/> <Class IRI="#OSM_Tags_shop_furniture"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Loja_de_roupas_e_ou_tecidos"/> <Class IRI="#OSM_Tags_shop_clothes"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Mercado_público"/> <Class IRI="#OSM_Tags_amenity_marketplace"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Motel"/> <Class IRI="#OSM_Tags_tourism_motel"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Oficina_mecânica"/> <Class IRI="#OSM_Tags_shop_car_repair"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Outros_comércios"/> <Class IRI="#OSM_Tags_shop_yes"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Outros_serviços"/> <Class IRI="#OSM_Tags_office_company"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Pousada"/> <Class IRI="#OSM_Tags_tourism_guest_house"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Quitanda"/> <Class IRI="#OSM_Tags_shop_greengrocer"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Restaurante"/> <Class IRI="#OSM_Tags_amenity_restaurant"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Supermercado"/> <Class IRI="#OSM_Tags_shop_supermarket"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Venda_de_veículos"/> <Class IRI="#OSM_Tags_shop_car"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Anfiteatro"/> <Class IRI="#OSM_Tags_leisure_amphitheatre"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Arquivo"/> <Class IRI="#OSM_Tags_amenity_archive"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Biblioteca"/> <Class IRI="#OSM_Tags_amenity_library"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Centro_cultural"/> <Class IRI="#OSM_Tags_amenity_cultural_centre"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Centro_de_documentação"/> <Class IRI="#OSM_Tags_amenity_archive"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Circo"/> <Class IRI="#OSM_Tags_leisure_circus"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Concha_acústica"/> <Class IRI="#OSM_Tags_leisure_bandstand"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Conservatório"/> <Class IRI="#OSM_Tags_amenity_arts_centre"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Coreto_ou_tribuna"/> <Class IRI="#OSM_Tags_leisure_gazebo"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Equipamentos_culturais_diversos"/> <Class IRI="#OSM_Tags_amenity_cultural_centre"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Espaço_de_eventos_e_ou_cultural"/> <Class IRI="#OSM_Tags_amenity_events_venue"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Espaço_de_exibição_de_filmes"/> <Class IRI="#OSM_Tags_amenity_cinema"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Estádio"/> <Class IRI="#OSM_Tags_leisure_stadium"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Galeria"/> <Class IRI="#OSM_Tags_tourism_gallery"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Ginásio"/> <Class IRI="#OSM_Tags_leisure_sports_hall"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Museu"/> <Class IRI="#OSM_Tags_tourism_museum"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Plataforma_de_pesca"/> <Class IRI="#OSM_Tags_leisure_fishing_pier"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Teatro"/> <Class IRI="#OSM_Tags_amenity_theatre"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Capela_mortuária"/> <Class IRI="#OSM_Tags_amenity_funeral_home"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Centro"/> <Class IRI="#OSM_Tags_building_religious"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Convento"/> <Class IRI="#OSM_Tags_building_convent"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Igreja"/> <Class IRI="#OSM_Tags_amenity_church"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Mesquita"/> <Class IRI="#OSM_Tags_amenity_mosque"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Mosteiro"/> <Class IRI="#OSM_Tags_building_monastery"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Sinagoga"/> <Class IRI="#OSM_Tags_amenity_synagogue"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Templo"/> <Class IRI="#OSM_Tags_amenity_place_of_worship"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Terreiro"/> <Class IRI="#OSM_Tags_amenity_place_of_worship_african_traditional"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Primário"/> <Class IRI="#OSM_Tags_amenity_clinic"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Secundário"/> <Class IRI="#OSM_Tags_amenity_hospital"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Terciário"/> <Class IRI="#OSM_Tags_amenity_hospital"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#Posto_Combustivel"/> <Class IRI="#OSM_Tags_amenity_fuel"/> </SubClassOf>
+
+    <SubClassOf> <Class IRI="#OSM_Tags_building"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_toilets"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_apiary"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_poultry_house"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_cowshed"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_pigsty"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_farm"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_landuse_plant_nursery"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_landuse_aquaculture"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_newsagent"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_bank"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_mall"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_convention_centre"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_tourism_exhibition_centre"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_butcher"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_pharmacy"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_tourism_hotel"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_convenience"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_hardware"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_furniture"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_clothes"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_marketplace"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_tourism_motel"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_car_repair"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_yes"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_office_company"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_tourism_guest_house"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_greengrocer"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_restaurant"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_supermarket"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_shop_car"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_leisure_amphitheatre"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_archive"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_library"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_cultural_centre"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_leisure_circus"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_leisure_bandstand"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_arts_centre"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_leisure_gazebo"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_events_venue"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_cinema"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_leisure_stadium"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_tourism_gallery"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_leisure_sports_hall"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_tourism_museum"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_leisure_fishing_pier"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_theatre"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_funeral_home"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_religious"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_convent"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_church"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_mosque"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_building_monastery"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_synagogue"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_place_of_worship"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_place_of_worship_african_traditional"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_clinic"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_hospital"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+    <SubClassOf> <Class IRI="#OSM_Tags_amenity_fuel"/> <Class IRI="#OSM_Tags"/> </SubClassOf>
+</Ontology>

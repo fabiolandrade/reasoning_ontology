@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85">
+    <Prefix name="" IRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/7/untitled-ontology-85"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+
+    <!-- Subclasses for OSM_Tags -->
+
+    <!-- Example: Mapping "Edifício de Saúde" to OSM tags -->
+    <Declaration>
+        <Class IRI="#OSM_Tags/healthcare_hospital"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags/healthcare_hospital"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OSM_Tags/healthcare_hospital</IRI>
+        <Literal xml:lang="en">healthcare=hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#OSM_Tags/healthcare_hospital</IRI>
+        <Literal xml:lang="en">Represents hospitals in the OSM tagging schema.</Literal>
+    </AnnotationAssertion>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Saude"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#OSM_Tags/healthcare_hospital"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: Mapping "Hotel" to OSM tags -->
+    <Declaration>
+        <Class IRI="#OSM_Tags/tourism_hotel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags/tourism_hotel"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OSM_Tags/tourism_hotel</IRI>
+        <Literal xml:lang="en">tourism=hotel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#OSM_Tags/tourism_hotel</IRI>
+        <Literal xml:lang="en">Represents hotels in the OSM tagging schema.</Literal>
+    </AnnotationAssertion>
+    <EquivalentClasses>
+        <Class IRI="#Hotel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#OSM_Tags/tourism_hotel"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: Mapping "Edifício Religioso" to OSM tags -->
+    <Declaration>
+        <Class IRI="#OSM_Tags/amenity_place_of_worship"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags/amenity_place_of_worship"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OSM_Tags/amenity_place_of_worship</IRI>
+        <Literal xml:lang="en">amenity=place_of_worship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#OSM_Tags/amenity_place_of_worship</IRI>
+        <Literal xml:lang="en">Represents places of worship in the OSM tagging schema.</Literal>
+    </AnnotationAssertion>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Religiosa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#OSM_Tags/amenity_place_of_worship"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Example: Mapping "Residencial" to OSM tags -->
+    <Declaration>
+        <Class IRI="#OSM_Tags/landuse_residential"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OSM_Tags/landuse_residential"/>
+        <Class IRI="#OSM_Tags"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OSM_Tags/landuse_residential</IRI>
+        <Literal xml:lang="en">landuse=residential</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#OSM_Tags/landuse_residential</IRI>
+        <Literal xml:lang="en">Represents residential areas in the OSM tagging schema.</Literal>
+    </AnnotationAssertion>
+    <EquivalentClasses>
+        <Class IRI="#Edif_Residencial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOSMTag"/>
+            <Class IRI="#OSM_Tags/landuse_residential"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+
+    <!-- Add further mappings here for other subclasses -->
+
+</Ontology>

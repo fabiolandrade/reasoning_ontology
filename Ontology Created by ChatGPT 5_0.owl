@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_place_of_worship">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N4360412f572b47c2a094f2cc8f012962">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N216c382173b04e7a9ee6b36b7bbb13c7">
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with">
+                <rdfs:domain rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+                <rdfs:range rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+              </owl:ObjectProperty>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Religiosa"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Loja_de_moveis">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Loja de móveis</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Templo">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Templo</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Capela_Cemiterio_Campo_Santo"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Plataforma_de_pesca">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Instalação ou estrutura, fixa ou móvel, destinada a atividade direta ou indiretamente relacionada com a pesca, seja marítima, fluvial ou mesmo lacustre.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Plataforma de pesca</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Pocilga">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação ou local onde são criados porcos.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Pocilga</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Comercial">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#finalidade"/>
+    <rdfs:isDefinedBy xml:lang="pt">Comercialização de bens.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Comercial</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Viveiro_para_aquicultura">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação usada para a criação ou cultivo controlado de peixes, moluscos e plantas aquáticas.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Viveiro para aquicultura</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#esta_operacional">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica a situação em relação ao uso.</rdfs:isDefinedBy>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Servico">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#finalidade"/>
+    <rdfs:isDefinedBy xml:lang="pt">Prestação de serviços.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Serviço</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tem_altura_aprox">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica a altura não comprovada adquirida por processos indiretos.</rdfs:isDefinedBy>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#coletiva">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hab_Indigena"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica se a habitação é coletiva ou não, ou seja, se é habitada por mais de uma família (verdadeiro) ou não.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Coletiva</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Primario">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#nivelAtencao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Abrange os postos ou centros de saúde.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Primário</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#isolada">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hab_Indigena"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica se a habitação é isolada ou não, ou seja, se não há outras habitações indígenas ao seu redor (verdadeiro), ou há (falso).</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Isolada</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Aviario">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec"/>
+    <rdfs:label xml:lang="pt">Aviário</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Espaco_de_eventos_e_ou_cultural">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação onde são realizadas atividades de cunho cultural.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Espaço de eventos e/ou cultural</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#crista">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Religiosa"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica se a edificação ou construção religiosa pertence à religião cristã.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Cristã</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Terreiro">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Terreiro</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Oficina_mecanica">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Oficina mecânica</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Terciario">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#nivelAtencao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Abrange os hospitais especializados.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Terciário</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_building_hotel">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N8e8658d0af7248a3b21fee2829e01806">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nb49c99c1512d4bafab48c1e3ce58f445">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hotel"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#e_cultural">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica se a edificação é cultural ou não.</rdfs:isDefinedBy>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hospital_Mulher"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Venda_de_veiculos">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Venda de veículos</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_building_residential">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Ne13faec965d347e08feb70a4ee337506">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nad69ef4f13fd4dc4a205cb8352728e42">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Residencial"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_arts_centre">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Na234f87ab6c44463b20d43a61fc46586">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N7175d2355782468ebc8a3660ef47881b">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Equipamentos_culturais_diversos"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Igreja">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Igreja</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Mosteiro">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Mosteiro</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#religiao">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Religiosa"/>
+    <rdfs:isDefinedBy xml:lang="pt">A religião praticada na edificação religiosa.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Religião</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_school">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N1860290afd354aca83badfae3d7d4b2d">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N809d55d570a04392a0f2aabfa1b8f417">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Ensino"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_hospital">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N3b3edd573ceb4c4484071d85c79b9f5a">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N0bddbe3c5afd466eaa2a29cf53853a93">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Saude"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Convento_da_Lapa"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Quitanda">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Quitanda</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Concha_acustica">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:label xml:lang="pt">Concha acústica</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Viveiro_de_plantas">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec"/>
+    <rdfs:label xml:lang="pt">Viveiro de plantas</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_leisure_stadium">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Nf344fabfadca40c7b0676a729464c999">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nfa4f68336d51454eba10cb038ee23657">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Estadio"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tem_nome">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica o nome completo da instância.</rdfs:isDefinedBy>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Mesquita">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Mesquita</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Igreja_Universal_do_Reino_de_Deus"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_fuel">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Nca25011d27794e3383b1e33ee804aeb5">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nd6688bbd8f5c430b83bc1d2563ccdd10">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Posto_Combustivel"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação é uma construção destinada a diversos fins.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">EDGV_Edificação</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_museum">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N1bd03155ed8043059c7a56babe676fb1">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N005c817fb7b44cbb87005ebd7fb43e40">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Museu"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_Espirita_Allan_Kardec"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_theatre">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N6df67294d4d244cdb5782a7272ecd06b">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Na107480a0deb43b28123a9f3497e2d7b">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Teatro"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Arquivo">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Incluem-se os arquivos públicos e privados.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Arquivo</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Outros_comercios">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Outros comércios</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_hotel">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N5d7c93d021934b06a6a55010df66f6a8">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Neb80860cb8a94aa2b202aa5755c51f5a">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hotel"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_library">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Nd882a587fbee437fac5961ed7967ae51">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N660a166a682e4dd29ce39ef9f3e196da">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Biblioteca"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Curral">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec"/>
+    <rdfs:label xml:lang="pt">Curral</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Sinagoga">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Sinagoga</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_bank">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N8bb88f8b931447ebad479ce265de9daf">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N3382921a009c437f84de2b5e9ce5894c">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Banco"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Loja_de_conveniencia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Loja de conveniência</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_studio">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N62c1493a6fae46618fb70c51f5350159">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N9a59b859f2db408285df1b0e97d58754">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Conservatorio"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#ensino">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Religiosa"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica se a edificação religiosa também comporta a funcionalidade de educação, além da finalidade religiosa propriamente dita.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Ensino</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Constr_Est_Med_Fen">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação ou construção de estação de medição de fenômenos é aquela cuja funcionalidade se relaciona à medição, avaliaçào e acompanhamento de fenômenos.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação ou construção de estação de medição de fenômenos</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Secundario">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#nivelAtencao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Abrange os hospitais gerais.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Secundário</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Loja_de_materiais_de_construcao_e_ou_ferragem">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Loja de materiais de construção e/ou ferragem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_motel">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N41de4ebe946445fca629f72ebf460698">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Ne47a7abd2ffd49b7aef34883950d9132">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Motel"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Condominio_Quinta_da_Graca"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Coreto_ou_tribuna">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:label xml:lang="pt">Coreto ou tribuna</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Reserva_Indigena_Pataxo_da_Jaqueira"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Galeria">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:label xml:lang="pt">Galeria</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_historic_monument">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Ndd0edeb5cd32401380d479900c423999">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N80f6b504674948949e5dcaacc4562e24">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Equipamentos_culturais_diversos"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tem_geom_aprox">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica que a geometria adquirida é aproximada em relação à escala prevista para o produto cartográfico.</rdfs:isDefinedBy>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Circo">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Refere-se aos circos fixos e aos terrenos destinados ao circos itinerantes.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Circo</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_community_centre">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N91b4f8d3024b4c51819d130d2f84b1eb">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nd9448244cd404389bf881ade5b40cebe">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_cultural"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Comercio_de_carnes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Comércio de carnes</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Sede_operacional_de_fazenda">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec"/>
+    <rdfs:label xml:lang="pt">Sede operacional de fazenda</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_university">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N1a03b476b76a4808b809732e56b3f3bc">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N7e568cedb6da477093b9475a1773fa8e">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Ensino"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_pharmacy">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Nf96d2b85751b4479af9c1c830218421e">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nddac223a80b5439080d09a5bab9a2288">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Farmacia"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_building_industrial">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Nb74b14ecc47e49e48c2afc98ed01f813">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N4ebc58fb4753429d85b23892b3100623">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Ext_Mineral"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Centro</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_de_documentacao">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Incluem-se os centros de documentação públicos e privados.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Centro de documentação</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Residencial">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#finalidade"/>
+    <rdfs:isDefinedBy xml:lang="pt">Moradia.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Residencial</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Universidade_Federal_da_Bahia"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_vending_machine">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N347c9a73334b4f66aed2e60725a8575c">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N5e1d3794527641c8b48b00ad72444173">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Banca_de_jornal"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Loja_de_roupas_e_ou_tecidos">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Loja de roupas e/ou tecidos</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Convento">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Convento</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_comercial">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:isDefinedBy xml:lang="pt">Estrutura que contém estabelecimentos comerciais e de prestação de serviços (shopping center).</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Centro comercial</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Museu_de_Arte_Moderna"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Igreja_de_Jesus_Cristo_dos_Santos_dos_Ultimos_Dias"/>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#e_turistica">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica se a edificacao possui características turísticas.</rdfs:isDefinedBy>
+  </owl:ObjectProperty>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Chanukia_Bet_Chabad_Salvador"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_marketplace">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Nc6a0a12ea5c54aeb8a5c60e53ce94ddf">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N227b6c1083214a46a68f8903722565eb">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Mercado_publico"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_grave_yard">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N9e960a58ff41449f943ffeec0d974b1e">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nbfb8114de2f74e908b16ee3b2caed158">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Capela_mortuaria"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Mercado_Modelo"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_restaurant">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N59516649647944e49ac9f4fc7210d5c2">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N336d286945a44886b145ba5251196ebe">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Restaurante"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Colegio_Antonio_Vieira"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#UPA"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_supermarket">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N520f46886b844cfc8051ede7dd5c9e16">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N3c7ff7938c5e408aa1b027bf2b2671e2">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Supermercado"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_de_exposicoes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Centro de exposições</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Apiario">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec"/>
+    <rdfs:label xml:lang="pt">Apiário</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hospital_Geral"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Outros_servicos">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Outros serviços</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Anfiteatro">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Arenas ovais ou circulares rodeadas de degraus a céu aberto.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Anfiteatro</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Pousada">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Pousada</rdfs:label>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Igreja_do_Bonfim"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_building_farm">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="Nb9e80172b77142159737e375c3e01e83">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N8ba9fbf089b44b09b80f066fb0f87a52">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Agropec_Ext_Vegetal_Pesca"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_conference_centre">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N6d600371f3db40dcaba28e8f3be3edeb">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N9cf581dea0174f0a9c21cab9e2dccc37">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_de_convencoes"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Mosteiro_de_Sao_Bento"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_toilets">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N650c8e3e40f643d9991eec94ee49baca">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N36e76b0e2b404d0c9ed5fdbec3555af0">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Banheiro_Publico"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Posto_Marina"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_building_religious">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N6cf03cf2a2e64be3a6a99743a57289bb">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nbca4262407bf405b9515f0c3cb41c772">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Religiosa"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Estadio_Manoel_Barradas"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_leisure_sports_centre">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N2a6dcc0de9654143aafd859ddd41a62f">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="N4991fe1ff47d40d589f28bbec1c7a122">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Ginasio"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Laboratorio_Leme"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Igreja_Vitoria"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#La_Empa"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Terreiro_Iya_Omin_Axe_Iya_Masse"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Drogasil"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hospital_Ortopedico"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Habitacional">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação habitacional é aquela com funcionalidade de habitação.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação habitacional</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_amenity_cinema">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+    <owl:equivalentClass>
+      <rdf:Description rdf:nodeID="N810f56a7c17d48fb8024dcdaa88f8b31">
+        <owl:intersectionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags"/>
+          <owl:Restriction rdf:nodeID="Nb26096ea388b4ddaba16fae5083d52c0">
+            <owl:onProperty rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#associated_with"/>
+            <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Espaco_de_exibicao_de_filmes"/>
+          </owl:Restriction>
+        </owl:intersectionOf>
+      </rdf:Description>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Teatro_Castro_Alves"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Cantina_Volpi"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_Cultural_Islamico_da_Bahia"/>
+  <owl:Ontology rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Comerc_Serv"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica o tipo da edificação comercial ou de serviços.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Tipo da edificação comercial ou de serviços</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Biblioteca">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Refere-se a bibliotecas públicas, privadas, escolares, universitárias ou comunitárias (incluindo os pontos de leitura).</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Biblioteca</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Motel">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Motel</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Ensino">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação de ensino é aquela cujas atividades estão relacionadas à formação e/ou aperfeiçoamento e/ou pesquisa de cunho educacional.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação de ensino</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Supermercado">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Supermercado</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Equipamentos_culturais_diversos">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Incluem-se auditeca, sala de leitura, livraria, sebo, videolocadora, lan house, antiquário, alteliê de artes plásticas, centro de artesanato, casa de espetáculos, danceteria, estúdio, criative bureau, centro comunitário, casa do patrimônio, usina cultural, centro de artes e esportes unificados – CEUS, sala de dança, gafieira, espaço de apresentação de dança, quadra de escola de samba.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Equipamentos culturais diversos</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hotel">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:isDefinedBy xml:lang="pt">Estabelecimento comercial especializado em proporcionar acomodações para viajantes.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Hotel</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Banca_de_jornal">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Banca de jornal</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Ginasio">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Construção voltada para a prática de esportes que requerem locais fechados.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Ginásio</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Hab_Indigena">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação indígena é aquela habitada por indígenas.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação indígena</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Capela_mortuaria">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig"/>
+    <rdfs:label xml:lang="pt">Capela mortuária</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Conservatorio">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:label xml:lang="pt">Conservatório</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Banheiro_Publico">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Banheiro público é uma edificação, geralmente localizada em espaços de uso coletivo, com instalações sanitárias para higiene pessoal.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Banheiro público</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Comerc_Serv">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação de comércio ou serviços é uma edificação com funcionalidades comerciais ou de prestação de serviços.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação de comércio ou serviços</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Espaco_de_exibicao_de_filmes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Refere-se a cine itinerante, cineclube, drive-in, espaço público para exibição de filmese sala de cinema.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Espaço de exibição de filmes</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Posto_Combustivel">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Posto de combustível é o local onde são feitos os abastecimentos de combustíveis aos veículos e embarcações que trafegam por uma via de transporte.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Posto de combustível</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Teatro">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação onde ocorrem apresentações artísticas como peças de teatro ou ainda o palco ao ar livre onde se desenvolvem as atividades no centro de uma elipse ou circunferência contendo a plateia. Incluem-se os teatros públicos e privados.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Teatro</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Constr_Lazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica o tipo da edificação ou construção de lazer.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Tipo de edificação de lazer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Saude">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação de saúde é aquela cujas atividades estão relacionadas ao atendimento médico e/ou pesquisa no campo de saúde.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação de saúde</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#finalidade">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Comerc_Serv"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica a finalidade da edificação.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Finalidade</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Museu">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação a serviço da sociedade e de seu desenvolvimento e aberto ao público, que adquire, conserva, pesquisa, comunica e exibe para finalidades do estudo, da instrução e da apreciação, evidência material dos povos e seu ambiente. Incluem-se os museus públicos e privados.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Museu</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifAgropec">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Agropec_Ext_Vegetal_Pesca"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica o tipo da edificação agropecuária, de extrativismo vegetal ou de pesca.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Tipo da edificação agropecuária</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Ext_Mineral">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação de extrativismo mineral é aquela com funcionalidade relacionada à atividade extrativa mineral.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação de extrativismo mineral</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Restaurante">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Restaurante</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Estadio">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Construção que permite a prática de esportes que requeiram grandes espaços, como futebol, beisebol ou atletismo. Em um estádio também são realizados grandes eventos, uma vez que seu tamanho permite a concentração de um grande público.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Estádio</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#nivelAtencao">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Saude"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica o nível de atenção à saúde.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Nível de atenção</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Constr_Lazer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação ou construção de lazer é aquela cujas atividades estão ligadas ao lazer, recreação, esporte e/ou cultura.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação ou construção de lazer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#OSM_Tags">
+    <rdfs:isDefinedBy xml:lang="pt">Identifica tags do OSM que podem ter correspondência com as demais classes desta ontologia</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">OSM_Tags</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Religiosa">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação religiosa é aquela destinada a culto e/ou reuniões de caráter religioso.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação religiosa</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Mercado_publico">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Mercado público</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifRelig">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Religiosa"/>
+    <rdfs:isDefinedBy xml:lang="pt">Indica a denominação específica da edificação religiosa.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Tipo de edificação religiosa</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_de_convencoes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:isDefinedBy xml:lang="pt">Local em que ocorrem locação de salas e auditório(s) para os mais diversos tipos de eventos.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Centro de convenções</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Farmacia">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Farmácia</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Banco">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifComercServ"/>
+    <rdfs:label xml:lang="pt">Banco</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Centro_cultural">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#tipoEdifLazer"/>
+    <rdfs:isDefinedBy xml:lang="pt">Incluem-se os centros culturais públicos e privados.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Centro cultural</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Agropec_Ext_Vegetal_Pesca">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação agropecuária, de extrativismo vegetal e/ou pesca é uma edificação ou construção de propriedades onde se exercem atividades de natureza agropecuária ou de extrativismo vegetal e/ou pesqueira.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação agropecuária, de extrativismo vegetal e/ou pesca</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#Edif_Residencial">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fabiolaandrade/ontologies/2024/7/untitled-ontology-85#EDGV_Edificacao"/>
+    <rdfs:isDefinedBy xml:lang="pt">Edificação residencial é uma edificação com função eminentemente residencial.</rdfs:isDefinedBy>
+    <rdfs:label xml:lang="pt">Edificação residencial</rdfs:label>
+  </owl:Class>
+</rdf:RDF>
